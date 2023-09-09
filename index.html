@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stage One Task</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 data-testid="slackUserName">Odo Peter</h1>
+      </header>
+      <section>
+        <div class="img-div">
+          <img
+            alt="Odo Peter"
+            src="./img/slack.jpg"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div class="info">
+          <p>
+            Current Day of the Week:
+            <span data-testid="currentDayOfTheWeek" id="week-day"></span>
+          </p>
+          <p>
+            Current UTC Time:
+            <span id="timeline" data-testid="currentUTCTime" =""></span> ms
+          </p>
+        </div>
+
+        <div class="track">
+          <p data-testid="myTrack">Track - Frontend</p>
+        </div>
+
+        <div class="footer">
+          <p>
+            Source code here:
+            <a
+              data-testid="githubURL"
+              href="https://github.com/Odo-Peter/HNG_internship"
+              target="_blank"
+              >Github</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
